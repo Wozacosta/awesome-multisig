@@ -28,7 +28,7 @@ Multisig ("M‑of‑N") removes the single point of failure of a lone private ke
 - [What is a multisig wallet? (Safe)](https://safe.global/wallet) — smart‑contract multisig, explained for EVM.
 - [MPC vs. Multisig](https://www.fireblocks.com/blog/mpc-vs-multi-sig/) — how threshold signatures differ from on‑chain multisig (vendor‑authored; read critically).
 - [Vitalik Buterin — Why we need wide adoption of social recovery wallets](https://vitalik.eth.limo/general/2021/01/11/recovery.html) — the case for guardians/threshold recovery over seed phrases.
-- [Unchained — What is a bitcoin multisig wallet?](https://unchained.com/blog/what-is-multisig-bitcoin/) — collaborative custody framing.
+- [Unchained — What is a bitcoin multisig wallet?](https://www.unchained.com/blog/what-is-multisig) — collaborative custody framing.
 
 ## Wallets & Platforms
 
@@ -37,29 +37,27 @@ Multisig ("M‑of‑N") removes the single point of failure of a lone private ke
 - [Sparrow Wallet](https://sparrowwallet.com) — desktop wallet with first‑class multisig, PSBT, and hardware‑wallet support. ([source](https://github.com/sparrowwallet/sparrow))
 - [Specter Desktop](https://github.com/cryptoadvance/specter-desktop) — multisig coordinator built around Bitcoin Core and airgapped signers.
 - [Nunchuk](https://nunchuk.io) — mobile/desktop collaborative multisig with key‑sharing and inheritance.
-- [Caravan](https://unchained.com/caravan) — stateless, browser‑based multisig coordinator. ([source](https://github.com/caravan-bitcoin/caravan))
+- [Caravan](https://www.caravanmultisig.com) — stateless, browser‑based multisig coordinator. ([source](https://github.com/caravan-bitcoin/caravan))
 - [Electrum](https://electrum.org) — long‑standing wallet supporting M‑of‑N multisig setups.
-- [Liana](https://wizardsardine.com/liana/) — multisig with timelocked recovery paths (Miniscript‑based).
+- [Liana](https://lianawallet.com) — multisig with timelocked recovery paths (Miniscript‑based).
 
 ### Ethereum / EVM
 
 - [Safe](https://safe.global) — the most widely used smart‑contract multisig / smart account on EVM chains. ([source](https://github.com/safe-global))
 - [Den](https://onchainden.com) — multisig operations and treasury management built on Safe.
-- [Argent](https://www.argent.xyz) — smart wallet with guardian‑based recovery and threshold approvals.
 - [Candide](https://candide.dev) — ERC‑4337 smart accounts with multisig modules.
-- [Gnosis Safe{Wallet}](https://app.safe.global) — the hosted interface to Safe.
+- [Safe{Wallet}](https://app.safe.global) — the hosted interface to Safe.
 
 ### Solana
 
-- [Squads](https://squads.so) — the standard multisig protocol and smart‑account platform for Solana. ([source](https://github.com/Squads-Protocol/v4))
-- [Realms / SPL Governance](https://github.com/solana-labs/solana-program-library/tree/master/governance) — multisig‑style DAO treasury control.
+- [Squads](https://squads.xyz) — the standard multisig protocol and smart‑account platform for Solana. ([source](https://github.com/Squads-Protocol/v4))
+- [Realms / SPL Governance](https://github.com/Mythic-Project/solana-program-library/tree/master/governance) — multisig‑style DAO treasury control.
 
 ### MPC / Threshold Custody
 
 - [Fireblocks](https://www.fireblocks.com) — institutional MPC‑CMP custody and transaction policy engine.
 - [DFNS](https://www.dfns.co) — MPC key management as an API.
 - [Web3Auth](https://web3auth.io) — threshold key management (tKey / MPC) for consumer onboarding.
-- [Lit Protocol](https://litprotocol.com) — decentralized threshold signing / programmable key pairs.
 - [ZenGo](https://zengo.com) — consumer MPC wallet (no seed phrase).
 
 ## Standards & Specifications
@@ -88,13 +86,13 @@ Multisig ("M‑of‑N") removes the single point of failure of a lone private ke
 - [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) — build multisig scripts and PSBTs in JS/TS.
 - [@caravan/bitcoin](https://github.com/caravan-bitcoin/caravan) — multisig and PSBT primitives extracted from Caravan.
 - [tss-lib](https://github.com/bnb-chain/tss-lib) — Go implementation of GG18/GG20 threshold ECDSA.
-- [multi-party-ecdsa](https://github.com/ZenGo-X/multi-party-ecdsa) — Rust threshold ECDSA (GG18/GG20).
+- [multi-party-ecdsa](https://github.com/ZenGo-X/multi-party-ecdsa) — Rust threshold ECDSA (GG18/GG20); no longer maintained.
 - [ZF FROST](https://github.com/ZcashFoundation/frost) — Rust implementation of the FROST threshold Schnorr scheme.
 - [micro-eth-signer](https://github.com/paulmillr/micro-eth-signer) — minimal, auditable Ethereum tx/message signer (useful for verifying what a multisig will execute).
 
 ## Smart Contracts
 
-- [safe-smart-account](https://github.com/safe-global/safe-smart-account) — the audited Safe contracts (formerly `safe-contracts`).
+- [safe-smart-account](https://github.com/safe-fndn/safe-smart-account) — the audited Safe contracts (formerly `safe-contracts`).
 - [Squads Protocol v4](https://github.com/Squads-Protocol/v4) — the on‑chain Solana multisig program.
 - [Solady](https://github.com/Vectorized/solady) — gas‑optimized building blocks, incl. ERC‑1271 / ERC‑4337 helpers.
 - [OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) — `Governor` and access‑control primitives often paired with multisig.
@@ -111,9 +109,8 @@ Multisig ("M‑of‑N") removes the single point of failure of a lone private ke
 Multisig removes single‑key risk but adds *approval‑UI* and *signer‑hygiene* risk. Read these before trusting any setup.
 
 - [Rekt News](https://rekt.news) — running catalog of major exploits, including multisig/Safe incidents.
-- [The Parity multisig freeze (2017)](https://www.web3isgoinggreat.com/single/parity-multisig-bug) — a library `selfdestruct` locked ~$150M+; the canonical "your multisig is only as safe as its code" lesson.
+- [The Parity multisig freeze (2017)](https://www.openzeppelin.com/news/parity-wallet-hack-reloaded) — a library `selfdestruct` locked ~$150M+; the canonical "your multisig is only as safe as its code" lesson.
 - [Bybit / Safe UI compromise (2025)](https://rekt.news/bybit-rekt/) — signers approved a malicious payload shown a benign UI; birthed the "verify the tx hash, not the screen" practice.
-- [pcaversaccio — verifying Safe transactions](https://github.com/pcaversaccio/safe-tx-hashes-util) — practical defense against blind‑signing attacks.
 
 ## Research & Papers
 
