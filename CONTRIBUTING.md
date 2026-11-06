@@ -4,7 +4,7 @@ Thanks for helping make this list better! This is an [Awesome](https://awesome.r
 
 ## Guidelines
 
-- **One entry per link.** Format: `` - [Name](https://url) — Short, neutral description. ``
+- **One entry per link.** Format: `` - **[Name](https://url)** — Short, neutral description. `tag` ``, where `tag` is one of `wallet`, `custody`, `hardware`, `infra`, `contract`, `library`, `tool`, `spec`, `proposal`, `guide`, `reference`, `article`, `paper`, `incident` or `vulnerability`.
 - **Put it in the right section.** If a project spans chains (e.g. multichain MPC), pick the most relevant category.
 - **Descriptions are factual, not promotional.** No "best", "revolutionary", or marketing copy. Say what it *is* and what it's *for*.
 - **No dead links.** Check the URL resolves before submitting.
@@ -12,6 +12,7 @@ Thanks for helping make this list better! This is an [Awesome](https://awesome.r
 - **Prefer canonical sources.** Link a project's own site or repo over a third‑party mirror.
 - **Vendor‑authored explainers** (MPC vs. multisig, etc.) are allowed but should be labeled as such so readers judge bias.
 - **Security‑relevant claims need a source.** Post‑mortems must link a credible write‑up.
+- **Incidents** go newest first, with the date and approximate loss in the title, and should explain how the signers or keys were compromised.
 
 ## How to submit
 
