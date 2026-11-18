@@ -193,6 +193,7 @@ A threshold only helps if each signer independently checks what they sign. Most 
 - **[bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib)** — Build multisig scripts and PSBTs in JavaScript and TypeScript. `library`
 - **[@caravan/bitcoin](https://github.com/caravan-bitcoin/caravan/tree/main/packages/caravan-bitcoin)** — Multisig and PSBT primitives from the Caravan monorepo. `library`
 - **[FROST-BIP340](https://github.com/jesseposner/FROST-BIP340)** — Educational reference implementation of FROST for secp256k1 and BIP-340, with no external crypto dependencies. `library`
+- **[EmVault](https://github.com/gmikeska/emvault)** — Open-source Rust multisig custody library for Bitcoin and Liquid, created by the Emerald Foundation. `library`
 
 ### EVM libraries
 
