@@ -102,6 +102,7 @@ A threshold only helps if each signer independently checks what they sign. Most 
 - **[Bitcoin Core](https://github.com/bitcoin/bitcoin/blob/master/doc/descriptors.md)** — Descriptor wallets support `multi`, `sortedmulti`, `multi_a`, `musig()` and Miniscript in `wsh` and `tr`. `wallet`
 - **[Unchained](https://www.unchained.com)** — Collaborative custody: 2-of-3 bitcoin vaults in which the client holds two keys and Unchained one. `custody`
 - **[Casa](https://casa.io)** — Multi-key bitcoin vaults (3-key and 5-key) where Casa holds one recovery and co-signing key; also offers an Ethereum and stablecoin vault. `custody`
+- **[GroupVault](https://groupvault.io)** — Multisig custody platform for groups and individuals, with Bitcoin and Liquid vaults, hardware-wallet signing and signer rotation. `custody`
 
 ### Bitcoin hardware signers
 
