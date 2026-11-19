@@ -98,6 +98,7 @@ A threshold only helps if each signer independently checks what they sign. Most 
 - **[Electrum](https://electrum.org)** — Long-standing wallet supporting M-of-N multisig setups. `wallet`
 - **[Liana](https://lianawallet.com)** — Miniscript wallet with timelocked recovery paths, by Wizardsardine. ([source](https://github.com/wizardsardine/liana)) `wallet`
 - **[Nunchuk](https://nunchuk.io)** — Mobile and desktop multisig with shared group wallets, Miniscript templates (such as decaying multisig) and Taproot MuSig2 multisig. `wallet`
+- **[Ownbit](https://ownbit.io/en/bitcoin-multisig-wallet/)** — Paid mobile wallet with Bitcoin M-of-N multisig and QR-based offline phone signing. `wallet`
 - **[Bitcoin Keeper](https://www.bitcoinkeeper.app)** — Open-source mobile wallet for multi-key vaults (2-of-3, 3-of-5 or custom) mixing hardware and software signers, with inheritance tooling. ([source](https://github.com/KeeperCommunity/bitcoin-keeper)) `wallet`
 - **[Bitcoin Core](https://github.com/bitcoin/bitcoin/blob/master/doc/descriptors.md)** — Descriptor wallets support `multi`, `sortedmulti`, `multi_a`, `musig()` and Miniscript in `wsh` and `tr`. `wallet`
 - **[Unchained](https://www.unchained.com)** — Collaborative custody: 2-of-3 bitcoin vaults in which the client holds two keys and Unchained one. `custody`
